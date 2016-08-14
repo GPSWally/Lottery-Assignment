@@ -1,0 +1,110 @@
+
+@import 'https://fonts.googleapis.com/css?family=Ewert';
+
+body{
+	/*background: -webkit-radial-gradient(center, ellipse cover, #bf6e4e 0%,#752201 30%,#752201 30%,#8c3310 57%,#70a3a5 82%); *//* Chrome10-25,Safari5.1-6 */
+	background-image: url("./BlueTrianglePolygon%20Background/Blue-Triangle-Background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(255, 248, 85); 
+}
+
+.spad{
+	padding-right:30%;
+	padding-left:30%;
+}
+
+.headback{
+	background-color: cornflowerblue;
+	text-align: center;
+	height: 100px;
+	border-radius: 30px;
+	border-top: 40px;
+	border: 10px solid grey;
+}
+
+.space{
+	height: 30px;
+}
+
+.myhead{
+	text-align:center;
+	font-family: 'Ewert', cursive;
+	vertical-align: middle;
+	font-size: 100px;
+	height:auto;
+	border-radius: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	background: radial-gradient(circle, rgb(255,248,85), rgb(47,128,162));
+	border: 3px solid rgb(47, 128, 162);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset, 15px 8px 8px rgba(47, 128, 162, 0.8);
+	min-width: 150px;
+	min-height: 75px
+}
+
+.winNum{
+	padding-bottom: 15px;
+}
+
+.gradient{
+	background: linear-gradient(#111, #fff);
+}
+
+table{
+	padding: 5px;
+	margin: 0px auto;
+}
+
+td {
+	padding: 5px;
+}
+
+input {
+	letter-spacing: 2;
+}
+
+.info{
+	font-family: Arial;
+	font-size: 30px;
+	font-style: italic;
+	color: rgb(47, 128, 162);
+	text-align: center;
+}
+
+#FirstNumber, #SecondNumber, #ThirdNumber, #FourthNumber {
+	font-family: Arial;
+	font-size: 25px;
+	text-align: center;
+}
+
+#startRoll {
+	font-family: Arial;
+	font-size: 30px;
+	background: radial-gradient(circle, rgb(203,196,64), rgb(137,132,40));
+	border-radius: 40%;
+	width: 200px;
+	border: 2px solid rgb(86, 180, 239);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset, 15px 8px 8px rgba(82, 168, 236, 0.6);
+}
+
+.vertical-center {
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+	min-height: 40vh; /* These two lines are counted as one :-)       */
+	display: flex;
+	align-items: center;
+}
+
+.mytable{
+	text-align: center;
+}
+
+.row{
+	text-align: center;
+}
+.playButtons{
+	text-align: center;
+	padding-top: 20px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<style>
+		@import "newstyles.css";
+	</style>
+
+</head>
+<body>
+	<p></p>
+	<div class="container">
+		<div class="spad">
+			<div class="row myhead"><h2>Casino Game</h2>
+		</div>
+		</div>
+			<div class="container1">
+				<div class="info">Enter 4 distinct numbers from 1 to 10.</div>
+					<div class="mytable">
+						<table>
+							<tr>
+							<td><input autofocus size="2" type="text" id="FirstNumber"></td>
+							<td></td>
+							<td><input size="2" type="text" id="SecondNumber"></td>
+							<td></td>
+							<td><input size="2" type="text" id="ThirdNumber"></td>
+							<td></td>
+							<td><input size="2" type="text" id="FourthNumber"></td>
+							<td></td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<h2>
+							<div class="col-xs-6">
+						The winning number are:</div>
+						<div class="col-xs-1 number" id="win1"></div>
+    					<div class="col-xs-1 number" id="win2"></div>
+    					<div class="col-xs-1 number" id="win3"></div>
+    					<div class="col-xs-1 number" id="win4"></div>
+    					<div class="col-xs-2"></div>
+    					</h2>
+					</div>
+
+					<div class="playButtons"><input id="startRoll" type="submit" value="Play for $2!"></div>
+					<div class="row">
+						<h2 id="lost"></h2>
+					</div>
+					<div class="row">
+						<h2 id="winnings"></h2>
+					</div>
+					<div class="row">	
+						<h2> Your high score is $<span id='highS'></span></h2>
+					</div>
+				<div>
+			<div>
+	</div>
+
+	<script SRC="newscript2.js"></script>
+
+</body>
+</html>
